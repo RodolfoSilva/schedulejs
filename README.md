@@ -28,13 +28,14 @@ var C = Schedule({second: 0.01}).delay().start(function(loop) {
 ### Schedule.interval
 
 ## Options
-| Option        | Default       |
-| ------------- | -------------:|
-| month         |             0 |
-| day           |             0 |
-| hour          |             0 |
-| minute        |             0 |
-| second        |             0 |
+
+| Option          | Default       |
+| --------------- | -------------:|
+| `month`         |             0 |
+| `day`           |             0 |
+| `hour`          |             0 |
+| `minute`        |             0 |
+| `second`        |             0 |
 
 
 ## Contributing
