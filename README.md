@@ -15,6 +15,27 @@ var C = Schedule({second: 0.01}).delay().start(function(loop) {
     console.log('C stoped afeter ' + this.settings.auto_stop + ' cycles');
 }).stop(8);
 ```
+## Methods
+
+### Schedule.init
+
+### Schedule.start
+
+### Schedule.stop
+
+### Schedule.delay
+
+### Schedule.interval
+
+## Options
+| Option        | Default       |
+| ------------- | -------------:|
+| month         |             0 |
+| day           |             0 |
+| hour          |             0 |
+| minute        |             0 |
+| second        |             0 |
+
 
 ## Contributing
 
